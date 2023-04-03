@@ -1,9 +1,9 @@
 // Variable to change:
-var baseBetAmount = 0.00000001; // The base amount that you want to bet.
+var baseBetAmount = 0.00001; // The base amount that you want to bet.
 var betMultiplier = 2; // the multiplier value used.
 var supportedLoseSequenceBetsLength = 20; // After 20 consecutive loose the script stops
 var patternPlayPeriodInSeconds = 100; // The period of playing a single pattern.
-var maxGain = 0.00001; // The scripts stop when a maximum number of satoshi have benn earned.
+var maxGain = 0.001; // The scripts stop when a maximum number of satoshi have benn earned.
 var betsPatternsLengthInDecimal = [4];
 var betPatternReversed = 1;
 var binarySequenceOpposite = 1;
